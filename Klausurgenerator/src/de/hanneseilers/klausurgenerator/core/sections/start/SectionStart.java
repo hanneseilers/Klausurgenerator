@@ -24,6 +24,13 @@ public class SectionStart extends Section {
 	public Component getComponent() {
 		gui = new PanelSectionStart();
 		
+		gui.btnLoadExam.addActionListener(new ActionListener() {			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Loading exam
+			}
+		});
+		
 		gui.btnExit.addActionListener(new ActionListener() {			
 			@Override
 			public void actionPerformed(ActionEvent e) {

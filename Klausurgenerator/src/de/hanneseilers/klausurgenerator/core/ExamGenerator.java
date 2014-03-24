@@ -70,4 +70,9 @@ public class ExamGenerator implements JFrameListener, GeneratorInterface {
 		return sections;
 	}
 
+	@Override
+	public void loadExam() {
+		// TODO Loading exam
+	}
+
 }

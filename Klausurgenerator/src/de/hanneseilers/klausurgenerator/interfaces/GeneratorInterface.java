@@ -18,4 +18,9 @@ public interface GeneratorInterface {
 	 */
 	public JFrame getGui();
 	
+	/**
+	 * Loads exam for editing
+	 */
+	public void loadExam();
+	
 }
